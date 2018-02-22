@@ -18,3 +18,18 @@ $('*[activity]').click(function(){
 	$('*[activity]').removeClass('active');
 	$(this).addClass('active');
 });
+
+ function autoHeight() {
+   var padding = $('footer').outerHeight();
+   $('body').css('padding-bottom',padding);
+}
+
+ // onDocumentReady function bind
+ $(document).ready(function() {
+   autoHeight();
+ });
+
+ // onResize bind of the function
+ $(window).resize(function() {
+   autoHeight();
+ });
