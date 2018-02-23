@@ -1,0 +1,18 @@
+.boks {
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	width: 60%;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,.06);
+}
+.hours {
+	display: inline-block;
+	margin: 7px;
+	
+}
+.hours p {
+	padding-top: 10px;
+}
