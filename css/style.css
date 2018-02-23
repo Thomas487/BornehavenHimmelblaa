@@ -35,6 +35,8 @@ ul {
 body {	
 	font-family: 'Arial', sans-serif;
 	padding-top: 153px;
+	position: relative;
+	min-height: 100vh;
 }
 
 /* Nav */
@@ -51,12 +53,12 @@ nav {
 nav div.top {
 	height: 100%;
 	font-size: 0;
-	padding: 0 100px;
+	padding: 0 250px;
 }
 nav div.sub {
 	background-color: #f1f1f1;
 	font-size: 0;
-	padding: 0 100px;
+	padding: 0 250px;
 	height: 53px;
 }
 
@@ -152,13 +154,13 @@ header.cover p {
 	font-size: 1.2em;
 }
 header.cover > div.backdrop {
-    padding: 100px 100px;
+    padding: 100px 250px;
 	background: linear-gradient(135deg, rgba(255,177,68,0.75) 0%,rgba(68,187,255,0.75) 100%);
 }
 
 /* Sections */
 section.calendar {
-	padding: 100px;
+	padding: 100px 250px;
 	background-color: #f2f6f9;
 	box-shadow: inset 0 0 10px rgba(0,0,0,.25);
 }
@@ -249,7 +251,7 @@ section.calendar .calendar_menu li {
 /* Three Columns */
 section.three_columns {
 	text-align: center;
-	padding: 100px;
+	padding: 100px 250px;
 }
 section.three_columns > h2 {
 	margin-bottom: 40px;
@@ -279,20 +281,110 @@ section.three_columns > .flex > .lg-4 > .box:hover {
 
 /* START OM OS */
 
-
+.about {
+	border: 1px solid #44bbff;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+}
 
 /* SLUT OM OS */
 
-/* Padding L & R 100px */
+/*BESTYRELSEN*/
+
+.wrap {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.billede {
+	margin: auto;
+	
+}	
+.wrap div img {
+	width: 25%;
+	display: block;
+	margin-top: 100px;
+	border-radius: 400px;
+	border: 4px solid rgba(0,0,0,.25);
+	
+}
+.wrap div h3 {
+	padding-top: 20px;
+	font-size: 15px;	
+	font-size: 17px;
+}
+.blackline {
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	margin-top: 4px;
+	opacity: 0.4;
+	margin: auto;
+}
+
+/*SLUT BESTYRELSEN*/
+
+/*STUER*/
+
+.stuer img {
+	max-width: 100%;
+	margin-bottom: -4px;
+}
+.stuer > div {
+	border: 1px solid #cecece;
+	margin-bottom: 10px
+}
+.stuer .lg-8 {
+	padding: 10px 15px;
+}
+
+/*SLUT STUER*/
+
+/*MÅLTIDER*/
+
+.kost {
+	border: 1px solid #44bbff;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+	width: 50%;
+}
+.kost h3 {
+	color: #00c2ff;
+	padding-bottom: 10px;
+}
+.blueh2 {
+	color: #00c2ff;
+}
+.line {
+	border: 1px black solid;
+}
+
+/*SLUT MÅLTIDER*/
+
+/* Padding L & R 250px */
 .padlr {
-	padding: 15px 100px;
+	padding: 15px 250px;
 }
 
 /* Footer */
 footer {
 	background-color: #2c2c2c;
 	color: white;
-	padding: 20px 100px;
+	padding: 20px 250px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 footer > div > div:not(:first-child):not(:last-child)  {
 	padding-left: 25px;
